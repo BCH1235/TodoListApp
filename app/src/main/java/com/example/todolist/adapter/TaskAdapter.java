@@ -47,7 +47,7 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.TaskViewHolder
 
     public void setTasks(List<String> newTasks) {
         this.taskList = newTasks;
-        notifyDataSetChanged(); // 데이터가 변경되었음을 RecyclerView에 알립니다 (화면 갱신)
+        notifyDataSetChanged();
     }
 
 
